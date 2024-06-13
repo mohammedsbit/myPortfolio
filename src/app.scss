@@ -9,7 +9,7 @@
         scroll-snap-type: y mandatory;
         > *{
             width: 100vw;
-            height: calc(100vh - 70px);
+            height: calc(100vh - 170px);
             scroll-snap-align: start;
         }
     }

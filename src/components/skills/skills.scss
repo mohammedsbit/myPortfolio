@@ -1,0 +1,48 @@
+.skills {
+    .section-title {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .section-data {
+        display: flex;
+        justify-content: center;
+        width: 60%;
+        margin: 0 auto;
+        
+        .frontend-skills, .backend-skills{
+            width: 40%;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            padding: 20px;
+            text-align: center;
+            .subtitle{
+                font-size: 22px;
+                font-weight: 600;
+            }
+        }
+
+        .skills{
+            display: flex;
+            justify-content: space-between;
+            .skill-set{
+                display: block;
+                padding: 20px;
+                .skill-name{
+                    font-weight: 600;
+
+                }
+                .skill-level{
+                    opacity: 60%;
+                    padding-left: 40px;
+
+                }
+            }
+        }
+    }
+
+}

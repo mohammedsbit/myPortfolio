@@ -1,0 +1,42 @@
+.about{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    text-align: center;
+
+    .about-my-career{
+        display: flex;
+        justify-content: space-between;
+        .image{
+            flex: 0.5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+         img{
+            width: 200px;
+            height: 200px;
+            border-radius: 12px;
+            object-fit: cover;
+        }
+    }
+
+        .career-wrapper{
+            flex: 0.5;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            .career{
+                display: flex;
+                justify-content: space-between;
+                margin-left: 20px;
+                .experience, .education{
+                    padding: 20px;
+                    border: 1px solid #000;
+                    border-radius: 20px;
+                }
+            }
+        }
+    }
+}

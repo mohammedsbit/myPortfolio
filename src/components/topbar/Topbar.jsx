@@ -6,10 +6,10 @@ export default function TopBar({menuOpen, setMenuOpen}) {
     <div className={"topbar " + (menuOpen && "active")}>
         <div className="wrapper">
             <div className="left">
-                <a href="#intro" className="logo">Sbit.</a>
+                <a href="#intro" className="logo">Mohammed Sbit</a>
                 <div className="item-container">
                 <PersonIcon className="icon" />
-                <span>+1 873 554-1247</span>
+                <span>+1 438 528 1138</span>
                 </div>
                 <div className="item-container">
                 <MailIcon className="icon"/>
